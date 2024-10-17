@@ -1,0 +1,34 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .background {
+    min-height: 100vh; 
+    background-image: url('https://img.freepik.com/free-vector/black-background-with-white-line-that-says-white-it_483537-4189.jpg?w=826&t=st=1729087330~exp=1729087930~hmac=005d69b4d374003f974b50fdba49600ce587da4a0b10b8658f9fd762fc59da2c');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .p-3 {
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 500px;
+    width: 100%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .error {
+    color: red;
+    font-size: 12px;
+  }
+  button:hover {
+    opacity: 0.9;
+  }
+  

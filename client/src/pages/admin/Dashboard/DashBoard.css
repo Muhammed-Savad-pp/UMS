@@ -1,0 +1,182 @@
+.center-wrapper {
+  display: flex;
+  justify-content: center; 
+  align-items: flex-start; 
+  height: 100vh;
+  background-image: url('https://img.freepik.com/free-vector/black-background-with-white-line-that-says-white-it_483537-4189.jpg?w=826&t=st=1729087330~exp=1729087930~hmac=005d69b4d374003f974b50fdba49600ce587da4a0b10b8658f9fd762fc59da2c');
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  padding-top: 20px; 
+}
+.user-list-container {
+  width: 90%; 
+  max-width: 1000px; 
+  padding: 20px;
+  background-color: rgba(27, 25, 25, 0.9); 
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+  
+  .user-list-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .create-user-btn {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .create-user-btn:hover {
+    background-color: #218838;
+  }
+  
+  .search-input {
+    padding: 10px;
+    width: 250px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .user-list {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: white;
+  }
+  
+  .user-list-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .user-list-table th, .user-list-table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  .user-list-table th {
+    background-color: #f1f1f1;
+  }
+  
+  .user-list-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .user-list-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .user-list-table .profile-image-column {
+    width: 100px;
+    text-align: center;
+  }
+  
+  .user-list-table img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .mr-5 {
+    margin-right: 5px;
+  }
+  
+
+  .pagination {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 20px;
+  }
+  
+  .pagination-button, .page-number-button {
+    padding: 10px 15px;
+    margin: 0 5px; 
+    background-color: #007bff;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .pagination-button:hover, .page-number-button:hover {
+    background-color: #0056b3;
+    color: white;
+  }
+  
+  .page-number-button.active {
+    background-color: #28a745;
+    color: white; 
+  }
+  
+  .pagination-button:disabled {
+    background-color: #ddd; 
+    cursor: not-allowed;
+  }
+  
+ 
+  @media (max-width: 768px) {
+    .pagination-button, .page-number-button {
+      padding: 8px 12px;
+      margin: 0 3px;
+    }
+  }
+.user-list-table tbody tr:nth-child(odd) {
+  background-color: #f9f9f9; 
+}
+
+.user-list-table tbody tr:nth-child(even) {
+  background-color: #ffffff; 
+}
+
+.user-list-table tbody tr:hover {
+  background-color: #e0e0e0; 
+}
+
+
+.edit-btn {
+  padding: 8px 12px;
+  background-color: #28a745; 
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.edit-btn:hover {
+  background-color: #218838; 
+}
+
+.delete-btn {
+  padding: 8px 12px;
+  background-color: #dc3545; 
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.delete-btn:hover {
+  background-color: #c82333; 
+}
+
+.button-group {
+  display: flex;
+  gap: 10px; 
+}

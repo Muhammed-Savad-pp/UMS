@@ -1,0 +1,122 @@
+/* Container styles */
+
+.background {
+  min-height: 100vh; /* Makes the background cover the full viewport height */
+  background-image: url("https://img.freepik.com/free-vector/black-background-with-white-line-that-says-white-it_483537-4189.jpg?w=826&t=st=1729087330~exp=1729087930~hmac=005d69b4d374003f974b50fdba49600ce587da4a0b10b8658f9fd762fc59da2c");
+  background-size: cover; /* Makes the image cover the entire div */
+  background-position: center; /* Centers the background image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  justify-content: center;
+}
+.edit-user-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #2f2e2e;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 30px;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.edit-user-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 30px;
+}
+
+.form-group {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  font-size: 16px;
+  font-weight: 500;
+  color: #555;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"] {
+  width: 100%;
+  padding: 12px; 
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-group input[type="file"] {
+  width: 100%;
+  padding: 5px;
+}
+.form-group input[type="text"]:focus,
+.form-group input[type="email"]:focus {
+  border-color: #007bff; 
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); 
+  outline: none; 
+}
+
+.error {
+  color: red; 
+  font-size: 12px; 
+  margin-top: 5px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.profile-image {
+  height: 96px;
+  width: 96px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #0056b3; 
+}
+.go-back-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.go-back-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #6c757d;
+  color: white; 
+  border: none; 
+  border-radius: 4px; 
+  transition: background-color 0.3s ease; 
+}
+.go-back-btn:hover {
+  background-color: #5a6268; 
+}

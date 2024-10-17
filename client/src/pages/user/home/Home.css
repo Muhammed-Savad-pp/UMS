@@ -1,0 +1,11 @@
+.home-background {
+    background-image: url('https://img.freepik.com/free-vector/black-background-with-white-line-that-says-white-it_483537-4189.jpg?w=826&t=st=1729087330~exp=1729087930~hmac=005d69b4d374003f974b50fdba49600ce587da4a0b10b8658f9fd762fc59da2c');
+    background-size: cover;
+    background-position: center;
+    height: calc(100vh - 60px); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px; 
+}
